@@ -197,7 +197,7 @@ fieldset {
   display: flex;
   flex-direction: column;
   gap: 19px;
-  width: 400px;
+  inline-size: 415px;
 }
 
 .content__list {
@@ -207,11 +207,12 @@ fieldset {
   position: relative;
   block-size: 298px;
   overflow: auto;
-  scrollbar-width: none;
+  overflow-x: hidden;
   padding-bottom: 1px;
 }
 
 .content__list-item {
+  inline-size: 394px;
   margin: 4px;
   margin-inline-start: 2px;
   margin-block-start: 2px;
@@ -254,7 +255,6 @@ fieldset {
 
 .content__video-card-description {
   line-height: 16.2px;
-  padding-inline-start: 2px;
 }
 
 .content__video-card {
